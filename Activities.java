@@ -17,7 +17,7 @@ public class Activities extends Baseclass{
 	HomePage.getActivities().click();
 	}
 
-@Test(priority = 0, enabled = true)
+@Test(priority = 1, enabled = true)
 	public void CreateActivities01() throws Throwable {
 	HomePage HomePage = new HomePage(driver);
 	HomePage.getCreateActivities().click();
